@@ -1,4 +1,4 @@
-./configure --prefix=/E/wangshaohui/ffmpeg/build/debug/ \
+./configure --prefix=/D/workspace/FFmpeg/build/debug/ \
  --toolchain=msvc  \
  --disable-doc --disable-postproc --disable-stripping \
  --enable-version3  \
@@ -11,6 +11,6 @@
  --disable-encoders --enable-encoder=aac --enable-encoder=mpeg4 \
  --disable-muxers --enable-muxer=mp4 --enable-muxer=flv  \
  --disable-protocols --enable-protocol=file \
- --enable-decoder=png --enable-zlib \
- --enable-debug --disable-optimizations
+ --enable-debug --disable-optimizations  \
+ --enable-decoder=png --enable-zlib
  

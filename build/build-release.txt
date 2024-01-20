@@ -1,4 +1,4 @@
-./configure --prefix=/E/wangshaohui/ffmpeg/build/release/ \
+./configure --prefix=/D/workspace/FFmpeg/build/release/ \
  --toolchain=msvc  \
  --disable-doc --disable-postproc --disable-stripping \
  --enable-version3  \
