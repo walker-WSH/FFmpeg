@@ -1,0 +1,16 @@
+./configure --prefix=/D/workspace/FFmpeg/build/debug/ \
+ --toolchain=msvc  \
+ --disable-doc --disable-postproc --disable-stripping \
+ --enable-version3  \
+ --enable-ffplay \
+ --extra-cflags=-MT  \
+ --arch=x86_64 \
+ --enable-shared --disable-static \
+ --enable-dxva2 --enable-d3d11va  \
+ --disable-devices  \
+ --disable-encoders --enable-encoder=aac --enable-encoder=mpeg4 \
+ --disable-muxers --enable-muxer=mp4 --enable-muxer=flv  \
+ --disable-protocols --enable-protocol=file \
+ --enable-debug --disable-optimizations  \
+ --enable-decoder=png --enable-zlib
+ 
